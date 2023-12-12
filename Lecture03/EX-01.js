@@ -11,4 +11,3 @@ for (let i = 0; i < value1.length; i++) {
 }
 
 console.log(commonElements);
-);
