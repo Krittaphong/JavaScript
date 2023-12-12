@@ -1,5 +1,9 @@
-let value1 = ['Apple' , 1 , false];
-let value2 = ['Fries' , 2 , ture];
-let value3 = ['Mars' , 9 , 'Apple'];
+let value1 = ['Apple', 1, false];
+let value2 = ['Fries', 2, true];
+let value3 = ['Mars', 9, 'Apple'];
 
-compare the 3 arrays and find any common elements
+// Find common elements
+let commonElements = value1.filter(value => value2.includes(value) || value3.includes(value));
+
+console.log(commonElements);
+ || v
